@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "AVR",
+            "intelliSenseMode": "${default}",
+            "cStandard": "${default}",
+            "cppStandard": "${default}",
+            "compilerPath": "/opt/homebrew/opt/avr-gcc@12/bin/avr-gcc",
+            "includePath": [
+                "/opt/homebrew/opt/avr-gcc@12/avr/include/**"
+            ],
+            "compilerArgs": [
+                "-g",
+                "-Os",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-fno-exceptions",
+                "-fno-threadsafe-statics",
+                "-pipe",
+                "-mmcu=atmega644",
+                "-DF_CPU=16000000UL"
+            ]
+        }
+    ],
+    "version": 4
+}

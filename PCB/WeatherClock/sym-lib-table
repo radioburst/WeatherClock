@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name ESP8266-01_ESP-01)(type Legacy)(uri C:/Users/andid/Documents/KiCad_Library/ESP8266-01_ESP-01.lib)(options "")(descr ""))
+  (lib (name TRULY_GLCD_128X64_20_PINES)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/TRULY_GLCD_128X64_20_PINES.lib)(options "")(descr ""))
+  (lib (name WeatherClock-rescue)(type Legacy)(uri ${KIPRJMOD}/WeatherClock-rescue.lib)(options "")(descr ""))
+)
